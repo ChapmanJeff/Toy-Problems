@@ -2,15 +2,13 @@
 
 //Answer:
 
-// var sum = function(array, cb) {
-// 	var total = 0;
-// 	for (var i = 0; i < array.length; i++) {
-// 		total += array[i];
-// 	}
-// 	cb(total);
-// }
-
-//Alt. Answer:
+var sum = function(array, cb) {
+	var total = 0;
+	for (var i = 0; i < array.length; i++) {
+		total += array[i];
+	}
+	cb(total);
+}
 
 
 //Given:
