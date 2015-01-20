@@ -4,9 +4,11 @@
 var func = function (num) {
 	var newNum = 1;
 	for (var i = num; i >= 1; i--) {
-		newNum = newNum * i;
+		newNum *= i;
 	}
 	return newNum;
 }
 
-func(3);
+func(5);
+
+
