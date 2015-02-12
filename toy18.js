@@ -18,3 +18,17 @@ var getCounter = function () {
 }
 
 var counter = getCounter();
+
+
+
+// Using an ify:
+
+var getCounter = (function () {
+	var counter = 0;
+	return function () {
+		counter += 2;
+		return counter;
+	}
+})();
+
+getCounter();
